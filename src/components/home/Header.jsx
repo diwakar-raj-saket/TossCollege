@@ -27,12 +27,12 @@ const Header = () => {
           </Link>
           <div className="flex flex-col  text-center items-center">
             <h1 className="relative w-[max-content] font-roboto before:absolute before:inset-0 before:animate-typewriter before:bg-white text-primary text-md md:text-4xl font-bold">
-              Bihar College of Pharmacy
+              TOSS College of Pharmacy
             </h1>
 
             <div className="text-sm">Approved & Recognized by</div>
             <div className="text-primary font-semibold text-[10px] md:text-sm mt-1">
-              PCI | UGC | AICTE | MHFW | DST | BUHS
+              PCI | BTE
             </div>
           </div>
         </div>

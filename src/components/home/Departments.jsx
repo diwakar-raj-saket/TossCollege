@@ -8,21 +8,21 @@ const dataList = [
     content:
       'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
   },
-  {
-    title: 'Department of Pharmaceutics',
-    content:
-      'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
-  },
-  {
-    title: 'Department of Pharmaceutics',
-    content:
-      'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
-  },
-  {
-    title: 'Department of Pharmaceutics',
-    content:
-      'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
-  },
+  // {
+  //   title: 'Department of Pharmaceutics',
+  //   content:
+  //     'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
+  // },
+  // {
+  //   title: 'Department of Pharmaceutics',
+  //   content:
+  //     'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
+  // },
+  // {
+  //   title: 'Department of Pharmaceutics',
+  //   content:
+  //     'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
+  // },
 ];
 
 const Departments = () => {

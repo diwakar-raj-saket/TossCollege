@@ -24,10 +24,10 @@ const FeeDetails = () => {
           <tbody>
             <tr>
               <td className="border-2 border-gray-300 px-2 py-2">B. Pharm</td>
-              <td className="border-2 border-gray-300 px-2 py-2">Rs. 1,00,000/-</td>
+              <td className="border-2 border-gray-300 px-2 py-2">Rs. 71,500/-</td>
               <td className="border-2 border-gray-300 px-2 py-2">Per Annum</td>
             </tr>
-            <tr>
+            {/* <tr>
               <td className="border-2 border-gray-300 px-2 py-2">D. Pharm</td>
               <td className="border-2 border-gray-300 px-2 py-2">Rs. 1,00,000/-</td>
               <td className="border-2 border-gray-300 px-2 py-2">Per Annum</td>
@@ -37,7 +37,7 @@ const FeeDetails = () => {
               <td className="border-2 border-gray-300 px-2 py-2 col-span-2" colSpan={2}>
                 For M.Pharm Fees contact college
               </td>
-            </tr>
+            </tr> */}
           </tbody>
         </table>
       </div>

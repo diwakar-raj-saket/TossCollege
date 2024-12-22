@@ -9,7 +9,13 @@ const Footer = () => {
     <footer className="text-white py-12 px-4 md:px-12 bg-[url('/images/footer-bg.png')]">
       <div className="flex flex-wrap gap-y-4">
         <div className="flex w-full md:w-1/2 lg:w-1/4">
-          <Image src={'/images/main_logo.png'} width={200} height={150} className="size-30 md:size-48 m-auto" alt="logo" />
+          <Image
+            src={"/images/main_logo.png"}
+            width={200}
+            height={150}
+            className="size-30 md:size-48 m-auto"
+            alt="logo"
+          />
         </div>
 
         <div className="flex flex-col w-full md:w-1/2 lg:w-1/4">
@@ -39,15 +45,17 @@ const Footer = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
-          <div className="font-jura font-bold text-2xl mt-4">Quick Links</div>
+          {/* <div className="font-jura font-bold text-2xl mt-4">Quick Links</div>
           <div className="flex flex-col py-2 gap-2">
             <Link href="#">News & Announcement</Link>
             <Link href="#">Gallery</Link>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex flex-col w-full md:w-1/2 lg:w-1/4">
-          <div className="font-jura font-bold text-2xl">Bihar College of Pharmacy</div>
+          <div className="font-jura font-bold text-2xl">
+            TOSS College of Pharmacy
+          </div>
           <div className="flex items-start gap-4">
             <div className="select-none">________</div>
             <FaGraduationCap size={20} className="my-2" />
@@ -55,23 +63,26 @@ const Footer = () => {
           <div className="flex flex-col py-2 gap-4">
             <div className="flex items-center gap-2">
               <FaHome size={25} />
-              <div>New Bailey Road, Near Gola Road Petrol Pump Patna -801 503</div>
+              <div>
+                Pure Mustafa Road, Near Bypass highway, City, Pratapgarh U.P.
+                230002
+              </div>
             </div>
             <div className="flex items-center gap-2">
               <MdOutlinePhoneIphone size={20} />
-              <div>0612 350 4025</div>
+              <div>+91 79057 85175</div>
             </div>
             <div className="flex items-center gap-2">
               <MdOutlinePhoneIphone size={20} />
-              <div>0612 350 4025</div>
+              <div>+91 79851 27112</div>
             </div>
-            <div className="flex items-center gap-2">
+            {/* <div className="flex items-center gap-2">
               <MdOutlinePhoneIphone size={20} />
               <div>0612 350 4025</div>
-            </div>
+            </div> */}
             <div className="flex items-center gap-2">
               <HiOutlineMail size={20} />
-              <div>bcp@btedu.in</div>
+              <div>tcp@btedu.in</div>
             </div>
           </div>
         </div>

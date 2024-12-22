@@ -8,12 +8,19 @@ const ContactUs = () => {
   return (
     <>
       <div className="relative w-[100vw] h-[18vw]">
-        <Image src="/images/about-banner.png" fill className="object-cover" alt="" />
+        <Image
+          src="/images/about-banner.png"
+          fill
+          className="object-cover"
+          alt=""
+        />
       </div>
 
       <div className="bg-secondary text-white py-12">
         <div className="w-full flex flex-col items-center">
-          <h2 className="text-3xl md:text-4xl font-jura font-bold uppercase">contact us</h2>
+          <h2 className="text-3xl md:text-4xl font-jura font-bold uppercase">
+            contact us
+          </h2>
           <div className="flex items-start gap-4">
             <div className="mt-2 select-none">________</div>
             <FaGraduationCap size={30} className="my-4" />
@@ -24,36 +31,41 @@ const ContactUs = () => {
         <div className="flex flex-col md:flex-row flex-wrap justify-center gap-4">
           <div className="flex flex-col items-center text-center w-[90vw] md:w-[30%] bg-[#4b6925] py-6 px-8 m-auto md:m-0">
             <FaHome size={40} />
-            <div className="font-jura font-bold text-2xl mt-4">Bihar College of Pharmacy</div>
+            <div className="font-jura font-bold text-2xl mt-4">
+              TOSS College of Pharmacy
+            </div>
             <div className="flex items-start justify-center gap-4">
               <div className="mt-2 select-none">________</div>
               <FaGraduationCap size={25} className="my-4" />
             </div>
             <div className="font-jura font-extrabold">
-              New Bailey Road <br />
-              Near Gola Road Petrol Pump <br /> Patna -801 503, Bihar
+              Pure Mustafa Road, <br />
+              Near Bypass highway, City,
+              <br /> Pratapgarh U.P. 230002
             </div>
           </div>
 
           <div className="flex flex-col items-center text-center w-[90vw] md:w-[30%] bg-[#4b6925] py-6 px-8 m-auto md:m-0">
             <IoIosCall size={40} />
-            <div className="font-jura font-bold text-2xl mt-4">Contact Number</div>
+            <div className="font-jura font-bold text-2xl mt-4">
+              Contact Number
+            </div>
             <div className="flex items-start justify-center gap-4">
               <div className="mt-2 select-none">________</div>
               <FaGraduationCap size={25} className="my-4" />
             </div>
             <div className="flex items-center gap-1">
               <IoIosCall size={20} />
-              <p>0612 350 4025</p>
+              <p>+91 79057 85175</p>
             </div>
             <div className="flex items-center gap-1">
               <IoIosCall size={20} />
-              <p>0612 350 4025</p>
+              <p>+91 79851 27112</p>
             </div>
-            <div className="flex items-center gap-1">
+            {/* <div className="flex items-center gap-1">
               <IoIosCall size={20} />
-              <p>0612 350 4025 (WhatsApp)</p>
-            </div>
+              <p>0612 350 4025 </p>
+            </div> */}
           </div>
 
           <div className="flex flex-col items-center text-center w-[90vw] md:w-[30%] bg-[#4b6925] py-6 px-8 m-auto md:m-0">
@@ -65,7 +77,9 @@ const ContactUs = () => {
             </div>
             <div className="flex items-center gap-1">
               <HiOutlineMail size={20} />
-              <Link href="emailto:info@biharcollegeofpharmacy.com">info@biharcollegeofpharmacy.com</Link>
+              <Link href="emailto:tossgroup@gmail.com">
+                tossgroup844@gmail.com
+              </Link>
             </div>
           </div>
         </div>

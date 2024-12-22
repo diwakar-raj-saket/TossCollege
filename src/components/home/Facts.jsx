@@ -3,9 +3,9 @@ import NumberIncrement from '../other/NumberIncrement';
 
 const dataList = [
   { title: 'Faculty', value: '30', postfix: '+' },
-  { title: 'Courses', value: '4', postfix: '' },
-  { title: 'Students', value: '500', postfix: '+' },
-  { title: 'Placement', value: '95', postfix: '%' },
+  { title: 'Courses', value: '1', postfix: '' },
+  // { title: 'Students', value: '500', postfix: '+' },
+  // { title: 'Placement', value: '95', postfix: '%' },
 ];
 
 const Facts = () => {

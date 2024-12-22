@@ -1,16 +1,16 @@
-import Link from 'next/link';
-import { FaRupeeSign, FaWhatsapp } from 'react-icons/fa';
-import { GiArchiveRegister } from 'react-icons/gi';
-import { IoIosCall } from 'react-icons/io';
+import Link from "next/link";
+import { FaRupeeSign, FaWhatsapp } from "react-icons/fa";
+import { GiArchiveRegister } from "react-icons/gi";
+import { IoIosCall } from "react-icons/io";
 
 const Headline = () => {
   return (
     <div className="flex flex-wrap justify-center md:justify-evenly items-center gap-4 font-medium text-white bg-primary py-2 px-4">
       <div className="flex items-center gap-2">
         <IoIosCall size={20} />
-        06123504025/26
+        +91 7905785175
       </div>
-      <Link href="#">
+      <Link href="https://whatsapp.com/channel/0029Vb0oduq65yD4IQCH352H">
         <div className="flex items-center gap-2">
           <FaWhatsapp size={20} />
           Whats App Channel

@@ -10,34 +10,34 @@ const dataList = [
     seats: 60,
     duration: '2 Years',
   },
-  {
-    img: '/images/notice-bg.png',
-    title: 'B.Pharm',
-    text: ' No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection.',
-    seats: 60,
-    duration: '2 Years',
-  },
-  {
-    img: '/images/notice-bg.png',
-    title: 'B. Pharm (Lateral)',
-    text: ' No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection.',
-    seats: 60,
-    duration: '2 Years',
-  },
-  {
-    img: '/images/notice-bg.png',
-    title: 'M. Pharm (Pharmaceutics)',
-    text: ' No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection.',
-    seats: 60,
-    duration: '2 Years',
-  },
+  // {
+  //   img: '/images/notice-bg.png',
+  //   title: 'B.Pharm',
+  //   text: ' No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection.',
+  //   seats: 60,
+  //   duration: '2 Years',
+  // },
+  // {
+  //   img: '/images/notice-bg.png',
+  //   title: 'B. Pharm (Lateral)',
+  //   text: ' No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection.',
+  //   seats: 60,
+  //   duration: '2 Years',
+  // },
+  // {
+  //   img: '/images/notice-bg.png',
+  //   title: 'M. Pharm (Pharmaceutics)',
+  //   text: ' No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection.',
+  //   seats: 60,
+  //   duration: '2 Years',
+  // },
 ];
 
 const Courses = () => {
   return (
     <>
       <div className="w-full flex flex-col items-center">
-        <h2 className="text-3xl md:text-4xl font-jura font-bold uppercase text-center">Courses at Bihar College of Pharmacy</h2>
+        <h2 className="text-3xl md:text-4xl font-jura font-bold uppercase text-center">Courses at TOSS College of Pharmacy</h2>
         <div className="flex items-start gap-4">
           <div className="mt-2 select-none">________</div>
           <FaGraduationCap size={30} className="my-4" />

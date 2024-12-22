@@ -18,7 +18,7 @@ const Admission = () => {
           <div className="font-jura font-bold text-2xl">Admission</div>
           <div className="mt-4">
             Strictly on Merit by written Test notified by the College. Admission is being taken through the entrance examination conducted by the
-            college, following the norms and conditions of P.C.I., A.I.C.T.E. and Magadh University, Bodh Gaya.
+            college, following the norms and conditions of P.C.I. and Magadh University, Bodh Gaya.
           </div>
         </div>
 
@@ -43,7 +43,7 @@ const Admission = () => {
                 <td className="border-2 border-gray-300 px-2 py-2">50%</td>
                 <td className="border-2 border-gray-300 px-2 py-2">Physics, Chemistry & (Maths/ Biology)</td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td className="border-2 border-gray-300 px-2 py-2">2</td>
                 <td className="border-2 border-gray-300 px-2 py-2">B. Pharm.</td>
                 <td className="border-2 border-gray-300 px-2 py-2">10+2 (PCB/M)</td>
@@ -56,7 +56,7 @@ const Admission = () => {
                 <td className="border-2 border-gray-300 px-2 py-2">D. Pharm</td>
                 <td className="border-2 border-gray-300 px-2 py-2">45%</td>
                 <td className="border-2 border-gray-300 px-2 py-2">-</td>
-              </tr>
+              </tr> */}
             </tbody>
           </table>
         </div>
@@ -64,12 +64,12 @@ const Admission = () => {
         <div>
           <div className="font-jura font-bold text-2xl">Reservation of Seats</div>
           <div className="mt-4">
-            The college strictly follow the policy of reservation of the Govt. of Bihar. In the case of no candidates of reserved categories the seats
+            The college strictly follow the policy of reservation of the Govt. of UttarPradesh. In the case of no candidates of reserved categories the seats
             will be offered to candidates outside these categories.
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <div className="font-jura font-bold text-2xl">Foreign & NRI Students</div>
           <div className="mt-4">
             Seats are reserved for foreign nationals & NRI’s as per the direction from AICTE, Govt. of India. They should have proper equivalent
@@ -104,7 +104,7 @@ const Admission = () => {
               <tr>
                 <td className="border-2 border-gray-300 px-2 py-2">Eligibility Criteria</td>
                 <td className="border-2 border-gray-300 px-2 py-2" colSpan={2}>
-                  {`Applicant must meet the eligibility criterion for admission to pharmacy program in Bihar College of Pharmacy. The Association of
+                  {`Applicant must meet the eligibility criterion for admission to pharmacy program in TOSS College of Pharmacy. The Association of
                   Indian Universities prescribes the equivalent qualifications for many examinations across the globe. Cambridge HSCE, UK GCE,
                   Ethiopian School Leaving Certificate Examination, NECTA Form 4 & Form 6, ‘O’ and ‘A’ level examinations of various countries,
                   International Baccalaureate and Secondary / Senior Secondary /Intermediate Examinations of various countries are some of the
@@ -131,7 +131,7 @@ const Admission = () => {
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> */}
 
         <div>
           <div className="font-jura font-bold text-2xl">Selection Procedure</div>
