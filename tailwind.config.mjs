@@ -11,6 +11,17 @@ const config = {
       },
       fontFamily: {
         jura: ['var(--font-jura-sans)'],
+        roboto: ['var(--font-roboto-sans)'],
+      },
+      animation: {
+        typewriter: 'typewriter 2s steps(25) forwards',
+      },
+      keyframes: {
+        typewriter: {
+          to: {
+            left: '100%',
+          },
+        },
       },
     },
   },

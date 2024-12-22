@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="text-white py-12 px-4 md:px-12 bg-[url('/images/footer-bg.png')]">
       <div className="flex flex-wrap gap-y-4">
         <div className="flex w-full md:w-1/2 lg:w-1/4">
-          <Image src={'/images/main_logo.png'} width={100} height={100} className="size-30 md:size-48 m-auto" alt="logo" />
+          <Image src={'/images/main_logo.png'} width={200} height={150} className="size-30 md:size-48 m-auto" alt="logo" />
         </div>
 
         <div className="flex flex-col w-full md:w-1/2 lg:w-1/4">

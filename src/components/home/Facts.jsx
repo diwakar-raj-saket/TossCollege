@@ -1,10 +1,11 @@
 import { FaGraduationCap } from 'react-icons/fa';
+import NumberIncrement from '../other/NumberIncrement';
 
 const dataList = [
-  { title: 'Faculty', content: '30+' },
-  { title: 'Courses', content: '4' },
-  { title: 'Students', content: '500+' },
-  { title: 'Placement', content: '95 %' },
+  { title: 'Faculty', value: '30', postfix: '+' },
+  { title: 'Courses', value: '4', postfix: '' },
+  { title: 'Students', value: '500', postfix: '+' },
+  { title: 'Placement', value: '95', postfix: '%' },
 ];
 
 const Facts = () => {
@@ -22,7 +23,10 @@ const Facts = () => {
             <div>
               <FaGraduationCap className="mx-auto" size={30} />
             </div>
-            <div className="font-jura font-extrabold text-6xl mt-4">{item.content}</div>
+            <div className="font-jura font-extrabold text-6xl mt-4">
+              <NumberIncrement targetNumber={item.value} />
+              {item.postfix ?? ''}
+            </div>
           </div>
         ))}
       </div>

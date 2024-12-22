@@ -53,19 +53,19 @@ const Courses = () => {
             </div>
             <div className="font-jura font-bold text-2xl py-4">{item.title}</div>
             <div>{item.text}</div>
-            <table class="table-auto w-full border-collapse border border-gray-300 text-xs md:text-base text-center mt-4">
+            <table className="table-auto w-full border-collapse border border-gray-300 text-xs md:text-base text-center mt-4">
               <tbody>
                 <tr>
-                  <td class="border-2 border-gray-300 px-2 py-2">No. Of Seats</td>
-                  <td class="border-2 border-gray-300 px-2 py-2">{item.seats}</td>
+                  <td className="border-2 border-gray-300 px-2 py-2">No. Of Seats</td>
+                  <td className="border-2 border-gray-300 px-2 py-2">{item.seats}</td>
                 </tr>
                 <tr>
-                  <td class="border-2 border-gray-300 px-2 py-2">Duration</td>
-                  <td class="border-2 border-gray-300 px-2 py-2">{item.duration}</td>
+                  <td className="border-2 border-gray-300 px-2 py-2">Duration</td>
+                  <td className="border-2 border-gray-300 px-2 py-2">{item.duration}</td>
                 </tr>
                 <tr>
-                  <td class="border-2 border-gray-300 px-2 py-2">Fee</td>
-                  <td class="border-2 border-gray-300 px-2 py-2">
+                  <td className="border-2 border-gray-300 px-2 py-2">Fee</td>
+                  <td className="border-2 border-gray-300 px-2 py-2">
                     Check the course{' '}
                     <Link href="/fee-details" className="underline">
                       fee section
@@ -73,8 +73,8 @@ const Courses = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td class="border-2 border-gray-300 px-2 py-2">Placement facilities</td>
-                  <td class="border-2 border-gray-300 px-2 py-2">Renowned Pharmaceutical concern of India Visit for Campus Selection.</td>
+                  <td className="border-2 border-gray-300 px-2 py-2">Placement facilities</td>
+                  <td className="border-2 border-gray-300 px-2 py-2">Renowned Pharmaceutical concern of India Visit for Campus Selection.</td>
                 </tr>
               </tbody>
             </table>

@@ -50,7 +50,7 @@ const VisionMission = () => {
           <div className="text-center md:text-start">
             <div className="text-2xl font-jura font-bold">Objectives</div>
             <div>
-              <ul class="list-disc pl-5">
+              <ul className="list-disc pl-5">
                 <li>Develop Bihar College of Pharmacy as a world-class pharmacy institute.</li>
                 <li>Provide quality education with state-of-the-art research facility.</li>
                 <li>Expand research activities in new avenues and emerging segments.</li>
