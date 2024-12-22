@@ -1,7 +1,5 @@
-export default {
+const nextConfig = {
   output: "export",
-  trailingSlash: true, // Ensures paths have trailing slashes for GitHub Pages
-  images: {
-    unoptimized: true, // Disables image optimization for GitHub Pages
-  },
 };
+
+export default nextConfig;
