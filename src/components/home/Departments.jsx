@@ -8,28 +8,28 @@ const dataList = [
     content:
       'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
   },
-  {
-    title: 'Department of Pharmaceutics',
-    content:
-      'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
-  },
-  {
-    title: 'Department of Pharmaceutics',
-    content:
-      'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
-  },
-  {
-    title: 'Department of Pharmaceutics',
-    content:
-      'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
-  },
+  // {
+  //   title: 'Department of Pharmaceutics',
+  //   content:
+  //     'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
+  // },
+  // {
+  //   title: 'Department of Pharmaceutics',
+  //   content:
+  //     'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
+  // },
+  // {
+  //   title: 'Department of Pharmaceutics',
+  //   content:
+  //     'Department of Pharmaceutics has been actively involved in improving the theoretical and practical skills of the students at the Diploma, Degree and Post Graduate level.',
+  // },
 ];
 
 const Departments = () => {
   return (
     <div>
       <div className="w-full flex flex-col items-center">
-        <h2 className="text-4xl font-jura font-bold uppercase">Departments</h2>
+        <h2 className="text-4xl font-jura font-bold uppercase mt-8">Departments</h2>
         <FaGraduationCap size={30} className="text-primary my-4" />
       </div>
 

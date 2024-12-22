@@ -18,45 +18,45 @@ const Admission = () => {
           <div className="font-jura font-bold text-2xl">Admission</div>
           <div className="mt-4">
             Strictly on Merit by written Test notified by the College. Admission is being taken through the entrance examination conducted by the
-            college, following the norms and conditions of P.C.I., A.I.C.T.E. and Magadh University, Bodh Gaya.
+            college, following the norms and conditions of P.C.I. and Magadh University, Bodh Gaya.
           </div>
         </div>
 
         <div>
           <div className="font-jura font-bold text-2xl">Eligibility Criteria for Admission</div>
           <div className="mt-4"> The minimum qualification required for the admission are mentioned below.</div>
-          <table class="table-auto border-collapse border border-gray-300 text-xs md:text-base">
+          <table className="table-auto border-collapse border border-gray-300 text-xs md:text-base">
             <thead>
               <tr>
-                <th class="border-2 border-gray-300 px-2 py-2 text-left">S. No.</th>
-                <th class="border-2 border-gray-300 px-2 py-2 text-left">Program</th>
-                <th class="border-2 border-gray-300 px-2 py-2 text-left">Qualifying Exam</th>
-                <th class="border-2 border-gray-300 px-2 py-2 text-left">Percentage Required</th>
-                <th class="border-2 border-gray-300 px-2 py-2 text-left">Subjects / Specialization Required</th>
+                <th className="border-2 border-gray-300 px-2 py-2 text-left">S. No.</th>
+                <th className="border-2 border-gray-300 px-2 py-2 text-left">Program</th>
+                <th className="border-2 border-gray-300 px-2 py-2 text-left">Qualifying Exam</th>
+                <th className="border-2 border-gray-300 px-2 py-2 text-left">Percentage Required</th>
+                <th className="border-2 border-gray-300 px-2 py-2 text-left">Subjects / Specialization Required</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="border-2 border-gray-300 px-2 py-2">1</td>
-                <td class="border-2 border-gray-300 px-2 py-2">D. Pharm.</td>
-                <td class="border-2 border-gray-300 px-2 py-2">10+2 (PCB/M)</td>
-                <td class="border-2 border-gray-300 px-2 py-2">50%</td>
-                <td class="border-2 border-gray-300 px-2 py-2">Physics, Chemistry & (Maths/ Biology)</td>
+                <td className="border-2 border-gray-300 px-2 py-2">1</td>
+                <td className="border-2 border-gray-300 px-2 py-2">D. Pharm.</td>
+                <td className="border-2 border-gray-300 px-2 py-2">10+2 (PCB/M)</td>
+                <td className="border-2 border-gray-300 px-2 py-2">50%</td>
+                <td className="border-2 border-gray-300 px-2 py-2">Physics, Chemistry & (Maths/ Biology)</td>
+              </tr>
+              {/* <tr>
+                <td className="border-2 border-gray-300 px-2 py-2">2</td>
+                <td className="border-2 border-gray-300 px-2 py-2">B. Pharm.</td>
+                <td className="border-2 border-gray-300 px-2 py-2">10+2 (PCB/M)</td>
+                <td className="border-2 border-gray-300 px-2 py-2">50%</td>
+                <td className="border-2 border-gray-300 px-2 py-2">Physics, Chemistry & (Maths/ Biology)</td>
               </tr>
               <tr>
-                <td class="border-2 border-gray-300 px-2 py-2">2</td>
-                <td class="border-2 border-gray-300 px-2 py-2">B. Pharm.</td>
-                <td class="border-2 border-gray-300 px-2 py-2">10+2 (PCB/M)</td>
-                <td class="border-2 border-gray-300 px-2 py-2">50%</td>
-                <td class="border-2 border-gray-300 px-2 py-2">Physics, Chemistry & (Maths/ Biology)</td>
-              </tr>
-              <tr>
-                <td class="border-2 border-gray-300 px-2 py-2">3</td>
-                <td class="border-2 border-gray-300 px-2 py-2">B. Pharm. (Lateral Entry)</td>
-                <td class="border-2 border-gray-300 px-2 py-2">D. Pharm</td>
-                <td class="border-2 border-gray-300 px-2 py-2">45%</td>
-                <td class="border-2 border-gray-300 px-2 py-2">-</td>
-              </tr>
+                <td className="border-2 border-gray-300 px-2 py-2">3</td>
+                <td className="border-2 border-gray-300 px-2 py-2">B. Pharm. (Lateral Entry)</td>
+                <td className="border-2 border-gray-300 px-2 py-2">D. Pharm</td>
+                <td className="border-2 border-gray-300 px-2 py-2">45%</td>
+                <td className="border-2 border-gray-300 px-2 py-2">-</td>
+              </tr> */}
             </tbody>
           </table>
         </div>
@@ -64,12 +64,12 @@ const Admission = () => {
         <div>
           <div className="font-jura font-bold text-2xl">Reservation of Seats</div>
           <div className="mt-4">
-            The college strictly follow the policy of reservation of the Govt. of Bihar. In the case of no candidates of reserved categories the seats
+            The college strictly follow the policy of reservation of the Govt. of UttarPradesh. In the case of no candidates of reserved categories the seats
             will be offered to candidates outside these categories.
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <div className="font-jura font-bold text-2xl">Foreign & NRI Students</div>
           <div className="mt-4">
             Seats are reserved for foreign nationals & NRI’s as per the direction from AICTE, Govt. of India. They should have proper equivalent
@@ -82,29 +82,29 @@ const Admission = () => {
         <div>
           <div className="font-jura font-bold text-2xl">Admission of Foreign/ NRI Students</div>
           <div className="mt-4">The minimum educational qualification required for the admission to various courses are mentioned below.</div>
-          <table class="table-auto border-collapse border border-gray-300 text-xs md:text-base">
+          <table className="table-auto border-collapse border border-gray-300 text-xs md:text-base">
             <thead>
               <tr>
-                <th class="border-2 border-gray-300 px-2 py-2 text-left">Mode of Admission</th>
-                <th class="border-2 border-gray-300 px-2 py-2 text-left">Foreign/ NRI Category</th>
-                <th class="border-2 border-gray-300 px-2 py-2 text-left">NRI/PIO/OCI Applicants</th>
+                <th className="border-2 border-gray-300 px-2 py-2 text-left">Mode of Admission</th>
+                <th className="border-2 border-gray-300 px-2 py-2 text-left">Foreign/ NRI Category</th>
+                <th className="border-2 border-gray-300 px-2 py-2 text-left">NRI/PIO/OCI Applicants</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="border-2 border-gray-300 px-2 py-2"></td>
-                <td class="border-2 border-gray-300 px-2 py-2">
+                <td className="border-2 border-gray-300 px-2 py-2"></td>
+                <td className="border-2 border-gray-300 px-2 py-2">
                   Direct admission to the program of your interest based on meeting certain minimum standard of academic performance in the qualifying
                   examination.
                 </td>
-                <td class="border-2 border-gray-300 px-2 py-2">
+                <td className="border-2 border-gray-300 px-2 py-2">
                   Admission to the program of your interest through the prescribed entrance/admission procedure
                 </td>
               </tr>
               <tr>
-                <td class="border-2 border-gray-300 px-2 py-2">Eligibility Criteria</td>
-                <td class="border-2 border-gray-300 px-2 py-2" colSpan={2}>
-                  {`Applicant must meet the eligibility criterion for admission to pharmacy program in Bihar College of Pharmacy. The Association of
+                <td className="border-2 border-gray-300 px-2 py-2">Eligibility Criteria</td>
+                <td className="border-2 border-gray-300 px-2 py-2" colSpan={2}>
+                  {`Applicant must meet the eligibility criterion for admission to pharmacy program in TOSS College of Pharmacy. The Association of
                   Indian Universities prescribes the equivalent qualifications for many examinations across the globe. Cambridge HSCE, UK GCE,
                   Ethiopian School Leaving Certificate Examination, NECTA Form 4 & Form 6, ‘O’ and ‘A’ level examinations of various countries,
                   International Baccalaureate and Secondary / Senior Secondary /Intermediate Examinations of various countries are some of the
@@ -113,14 +113,14 @@ const Admission = () => {
                 </td>
               </tr>
               <tr>
-                <td class="border-2 border-gray-300 px-2 py-2">Fees</td>
-                <td class="border-2 border-gray-300 px-2 py-2 col-span-2" colSpan={2}>
+                <td className="border-2 border-gray-300 px-2 py-2">Fees</td>
+                <td className="border-2 border-gray-300 px-2 py-2 col-span-2" colSpan={2}>
                   Consult college
                 </td>
               </tr>
               <tr>
-                <td class="border-2 border-gray-300 px-2 py-2">How to apply</td>
-                <td class="border-2 border-gray-300 px-2 py-2 col-span-2" colSpan={2}>
+                <td className="border-2 border-gray-300 px-2 py-2">How to apply</td>
+                <td className="border-2 border-gray-300 px-2 py-2 col-span-2" colSpan={2}>
                   Visit{' '}
                   <Link href="#" className="underline">
                     www.abc.com
@@ -131,7 +131,7 @@ const Admission = () => {
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> */}
 
         <div>
           <div className="font-jura font-bold text-2xl">Selection Procedure</div>

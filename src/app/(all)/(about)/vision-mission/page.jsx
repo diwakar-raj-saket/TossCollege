@@ -1,10 +1,17 @@
-import { FaChartLine, FaGraduationCap, FaRegGem, FaRegStar } from 'react-icons/fa';
+import {
+  FaChartLine,
+  FaGraduationCap,
+  FaRegGem,
+  FaRegStar,
+} from "react-icons/fa";
 
 const VisionMission = () => {
   return (
     <>
       <div className="w-full flex flex-col items-center">
-        <h2 className="text-3xl md:text-4xl font-jura font-bold uppercase text-center">VISION & MISSION</h2>
+        <h2 className="text-3xl md:text-4xl font-jura font-bold uppercase text-center">
+          VISION & MISSION
+        </h2>
         <div className="flex items-start gap-4">
           <div className="mt-2 select-none">________</div>
           <FaGraduationCap size={30} className="my-4" />
@@ -31,13 +38,26 @@ const VisionMission = () => {
             <div className="text-2xl font-jura font-bold">Mission</div>
             <div>
               <ul className="list-disc pl-5">
-                <li>Imparting value-based quality education in the field of Pharmaceutical Sciences.</li>
-                <li>Advancement of innovative research in pharmacy.</li>
                 <li>
-                  Research collaboration with the pharmaceutical industry for sustainable partnership and to produce cost-effective quality medicines.
+                  TOSS Group of Institutions is dedicated to fostering a
+                  sustainable learning ecosystem aimed at cultivating cognitive
+                  potential.
                 </li>
-                <li>Render community pharmacy services especially to the rural areas.</li>
-                <li>Impart continuing education programs to fulfill the needs of working professionals.</li>
+                <li>
+                  Our mission includes instilling essential qualities such as
+                  quality leadership, corporate understanding, and global
+                  competence.
+                </li>
+                <li>
+                  Moreover, we actively promote entrepreneurial skills and
+                  startup attributes to instill a spirit of self-reliance in our
+                  students.
+                </li>
+                <li>
+                  Join us on a transformative educational journey where
+                  innovation, leadership, and self-reliance converge for
+                  holistic development.
+                </li>
               </ul>
             </div>
           </div>
@@ -50,14 +70,31 @@ const VisionMission = () => {
           <div className="text-center md:text-start">
             <div className="text-2xl font-jura font-bold">Objectives</div>
             <div>
-              <ul class="list-disc pl-5">
-                <li>Develop Bihar College of Pharmacy as a world-class pharmacy institute.</li>
-                <li>Provide quality education with state-of-the-art research facility.</li>
-                <li>Expand research activities in new avenues and emerging segments.</li>
-                <li>Nurturing pharmacy youths with the modern advancement in the field of pharmacy technology.</li>
-                <li>Modernize and upgrade the college infrastructure as per AICTE, PCI & NAAC.</li>
-                <li>Conduct Diploma, Bachelor, and Post Graduate programs in Pharmaceutical Sciences.</li>
-                <li>Establish linkages with alumni for institutional development.</li>
+              <ul className="list-disc pl-5">
+                <li>
+                  Develop TOSS College of Pharmacy as a world-class pharmacy
+                  institute.
+                </li>
+                <li>
+                  Provide quality education with state-of-the-art research
+                  facility.
+                </li>
+                <li>
+                  Expand research activities in new avenues and emerging
+                  segments.
+                </li>
+                <li>
+                  Nurturing pharmacy youths with the modern advancement in the
+                  field of pharmacy technology.
+                </li>
+                <li>
+                  Modernize and upgrade the college infrastructure as per PCI &
+                  NAAC.
+                </li>
+                <li>Conduct Diploma programs in Pharmaceutical Sciences.</li>
+                <li>
+                  Establish linkages with alumni for institutional development.
+                </li>
                 <li>Explore national and international collaboration.</li>
               </ul>
             </div>

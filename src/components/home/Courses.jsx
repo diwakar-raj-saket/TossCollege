@@ -9,21 +9,21 @@ const dataList = [
     content:
       'No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection. ',
   },
-  {
-    title: 'D. Pharm',
-    content:
-      'No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection. ',
-  },
-  {
-    title: 'D. Pharm',
-    content:
-      'No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection. ',
-  },
-  {
-    title: 'D. Pharm',
-    content:
-      'No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection. ',
-  },
+  // {
+  //   title: 'D. Pharm',
+  //   content:
+  //     'No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection. ',
+  // },
+  // {
+  //   title: 'D. Pharm',
+  //   content:
+  //     'No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection. ',
+  // },
+  // {
+  //   title: 'D. Pharm',
+  //   content:
+  //     'No. Of Seats : 60, Duration : 2 Years Fee Check the course fee section Placement facilities Renowned Pharmaceutical concern of India Visit for Campus Selection. ',
+  // },
 ];
 
 const Courses = () => {
@@ -34,7 +34,7 @@ const Courses = () => {
       </div>
       <div className="md:w-1/2 bg-[#2d3e50] text-white pt-2 px-2 md:ps-8">
         <div className="text-4xl uppercase font-jura font-bold">
-          Courses at <br /> Bihar College of Pharmacy
+          Courses at <br /> TOSS College of Pharmacy
         </div>
         <div className="my-2">
           <FaGraduationCap size={30} />
