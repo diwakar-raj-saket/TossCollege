@@ -23,7 +23,7 @@ const FeeDetails = () => {
           </thead>
           <tbody>
             <tr>
-              <td className="border-2 border-gray-300 px-2 py-2">B. Pharm</td>
+              <td className="border-2 border-gray-300 px-2 py-2">D. Pharm</td>
               <td className="border-2 border-gray-300 px-2 py-2">Rs. 71,500/-</td>
               <td className="border-2 border-gray-300 px-2 py-2">Per Annum</td>
             </tr>
