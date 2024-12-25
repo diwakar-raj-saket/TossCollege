@@ -2,7 +2,7 @@ import { FaGraduationCap } from 'react-icons/fa';
 import NumberIncrement from '../other/NumberIncrement';
 
 const dataList = [
-  { title: 'Faculty', value: '30', postfix: '+' },
+  { title: 'Faculty', value: '5', postfix: '+' },
   { title: 'Courses', value: '1', postfix: '' },
   // { title: 'Students', value: '500', postfix: '+' },
   // { title: 'Placement', value: '95', postfix: '%' },

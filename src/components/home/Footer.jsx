@@ -82,7 +82,7 @@ const Footer = () => {
             </div> */}
             <div className="flex items-center gap-2">
               <HiOutlineMail size={20} />
-              <div>tcp@btedu.in</div>
+              <div>tossgroup844@gmail.com</div>
             </div>
           </div>
         </div>
